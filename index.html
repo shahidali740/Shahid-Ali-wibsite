@@ -1,245 +1,332 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shahid Ali | Computer Operator & Web Developer</title><style>
-* {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f3f6fa;
-    color: #222;
-    line-height: 1.6;
-}
+    <title>Shahid Ali | Computer Operator & Online Services</title>
 
-header {
-    background: #123c69;
-    color: white;
-    text-align: center;
-    padding: 35px 15px;
-}
+    <meta name="description" content="Shahid Ali offers computer operator services, MS Word typing, Excel data entry, CV preparation, online job applications and basic website development in Chiniot, Pakistan.">
 
-header h1 {
-    margin: 10px 0;
-    font-size: 32px;
-}
+    <meta name="keywords" content="Shahid Ali, Computer Operator, Data Entry, MS Word, MS Excel, Online Services, Chiniot Pakistan">
 
-header p {
-    margin: 5px;
-}
+    <meta name="author" content="Shahid Ali">
 
-nav {
-    background: #0756a3;
-    padding: 12px;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
+    <meta name="robots" content="index, follow">
 
-nav a {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    margin: 5px;
-    padding: 8px 10px;
-    border-radius: 5px;
-}
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
 
-nav a:hover {
-    background: white;
-    color: #0756a3;
-}
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+            background: #f2f5f9;
+            color: #222;
+        }
 
-.container {
-    max-width: 950px;
-    margin: auto;
-    padding: 15px;
-}
+        header {
+            background: #12345a;
+            color: white;
+            text-align: center;
+            padding: 35px 15px;
+        }
 
-section {
-    background: white;
-    margin: 18px 0;
-    padding: 22px;
-    border-radius: 12px;
-    box-shadow: 0 3px 12px #00000012;
-}
+        header img {
+            width: 145px;
+            height: 145px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            margin-bottom: 12px;
+        }
 
-h2 {
-    color: #0756a3;
-    border-bottom: 2px solid #0756a3;
-    padding-bottom: 8px;
-}
+        header h1 {
+            font-size: 30px;
+        }
 
-.profile {
-    text-align: center;
-}
+        header p {
+            font-size: 17px;
+        }
 
-.profile img {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid #0756a3;
-}
+        nav {
+            background: #087e8b;
+            text-align: center;
+            padding: 12px 5px;
+            position: sticky;
+            top: 0;
+        }
 
-ul {
-    padding-left: 25px;
-}
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 5px 9px;
+            display: inline-block;
+            font-weight: bold;
+        }
 
-li {
-    margin: 7px 0;
-}
+        nav a:hover {
+            color: #ffe082;
+        }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
+        .container {
+            max-width: 950px;
+            margin: 25px auto;
+            padding: 0 15px;
+        }
 
-th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;
-}
+        section {
+            background: white;
+            margin-bottom: 22px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #00000012;
+            border-left: 5px solid #087e8b;
+        }
 
-th {
-    background: #0756a3;
-    color: white;
-}
+        h2 {
+            color: #12345a;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e5eaf0;
+            padding-bottom: 8px;
+        }
 
-.button {
-    display: inline-block;
-    background: #0756a3;
-    color: white;
-    text-decoration: none;
-    padding: 10px 16px;
-    margin: 5px;
-    border-radius: 6px;
-}
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
 
-.whatsapp {
-    background: #128c4a;
-}
+        .card {
+            border: 1px solid #dce3eb;
+            border-radius: 10px;
+            padding: 18px;
+            background: #f8fbff;
+        }
 
-footer {
-    background: #123c69;
-    color: white;
-    text-align: center;
-    padding: 18px;
-}
+        .card h3 {
+            color: #087e8b;
+            margin-bottom: 8px;
+        }
 
-@media (max-width: 600px) {
-    nav a {
-        margin: 2px;
-        padding: 7px;
-        font-size: 14px;
-    }
+        ul {
+            padding-left: 22px;
+        }
 
-    section {
-        padding: 15px;
-    }
+        .button {
+            display: inline-block;
+            background: #087e8b;
+            color: white;
+            text-decoration: none;
+            padding: 10px 18px;
+            margin-top: 12px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
 
-    table {
-        font-size: 13px;
-    }
+        .button:hover {
+            background: #065f68;
+        }
 
-    th, td {
-        padding: 6px;
-    }
-}
-</style></head><body><header id="home">
+        .whatsapp {
+            background: #168b45;
+        }
+
+        .whatsapp:hover {
+            background: #106c35;
+        }
+
+        .contact-links a {
+            color: #087e8b;
+            overflow-wrap: anywhere;
+        }
+
+        footer {
+            background: #12345a;
+            color: white;
+            text-align: center;
+            padding: 20px 12px;
+            margin-top: 25px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 25px;
+            }
+
+            section {
+                padding: 18px;
+            }
+
+            nav a {
+                margin: 4px 6px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header id="home">
+    <img src="myphoto.jpg" alt="Shahid Ali Profile Photo">
+
     <h1>Shahid Ali</h1>
-    <p>Computer Operator | Office Assistant | Web Development Learner</p>
+
+    <p>Computer Operator | Data Entry | Online Services</p>
+
     <p>Chiniot, Punjab, Pakistan</p>
-</header><nav>
+
+    <a class="button" href="#services">View My Services</a>
+</header>
+
+<nav>
     <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#education">Education</a>
     <a href="#services">Services</a>
     <a href="#contact">Contact</a>
-</nav><div class="container"><section class="profile">
-    <img src="myphoto.jpg" alt="Shahid Ali">
-    <h2>Welcome to My Website</h2>
-    <p>Welcome! I am Shahid Ali. Explore my education, skills and services.</p>
-</section><section id="about">
-    <h2>About Me</h2>
-    <p>Hello! My name is Shahid Ali. I am from Chiniot, Punjab, Pakistan.
-    I have completed my BS in Islamic Studies and a Computer Operator course.
-    I am interested in computer skills, office management and web development.
-    I am hardworking, responsible and always willing to learn new skills.</p>
-</section><section id="skills">
-    <h2>My Skills</h2>
-    <ul>
-        <li>MS Word</li>
-        <li>MS Excel</li>
-        <li>English Typing — 35 WPM</li>
-        <li>HTML and CSS</li>
-        <li>Basic Web Development</li>
-        <li>Data Entry</li>
-        <li>Internet and Email</li>
-        <li>Basic Office Management</li>
-    </ul>
-</section><section id="education">
-    <h2>My Education</h2>
-    <table>
-        <tr>
-            <th>Degree</th>
-            <th>Institute</th>
-            <th>Year</th>
-        </tr>
-        <tr>
-            <td>BS Islamic Studies</td>
-            <td>University of Sargodha</td>
-            <td>2025</td>
-        </tr>
-        <tr>
-            <td>Computer Operator Diploma</td>
-            <td>Unique Academy</td>
-            <td>2026</td>
-        </tr>
-        <tr>
-            <td>Intermediate</td>
-            <td>Islamia College Chiniot</td>
-            <td>2021</td>
-        </tr>
-        <tr>
-            <td>Matric (Science)</td>
-            <td>Government High School No. 138</td>
-            <td>2019</td>
-        </tr>
-    </table>
-</section><section id="services">
-    <h2>My Services</h2>
-    <ul>
-        <li>CV and Resume Preparation</li>
-        <li>Online Job Application Assistance</li>
-        <li>MS Word Document Typing</li>
-        <li>Excel Data Entry</li>
-        <li>Basic Website Creation</li>
-        <li>Document Formatting</li>
-    </ul>
-    <p>Contact me to discuss your work requirements.</p>
-</section><section id="contact">
-    <h2>Contact Me</h2><p>Phone:
-    <a href="tel:03296028669">03296028669</a>
-</p>
+</nav>
 
-<p>Email:
-    <a href="mailto:shahidhrrl@gmail.com">shahidhrrl@gmail.com</a>
-</p>
+<main class="container">
 
-<a class="button whatsapp"
-   href="https://wa.me/923424697140"
-   target="_blank" rel="noopener">
-   Chat with me on WhatsApp
-</a>
+    <section id="about">
+        <h2>About Me</h2>
 
-</section></div><footer>
-    <p>© 2026 Shahid Ali | Personal Portfolio Website</p>
-</footer></body>
- </html>
+        <p>
+            My name is Shahid Ali. I am from Chiniot, Punjab, Pakistan.
+            I have completed my BS in Islamic Studies from the University
+            of Sargodha. I have computer operator training and an interest
+            in office management, data entry and website development.
+            I am eager to learn new skills and provide reliable computer services.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>MS Word</h3>
+                <p>Document preparation, applications, formatting and typing.</p>
+            </div>
+
+            <div class="card">
+                <h3>MS Excel</h3>
+                <p>Data entry, tables, worksheets and basic spreadsheet work.</p>
+            </div>
+
+            <div class="card">
+                <h3>Typing</h3>
+                <p>English typing speed: approximately 35 WPM.</p>
+            </div>
+
+            <div class="card">
+                <h3>Office Management</h3>
+                <p>Basic computer operations, internet and email.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+
+        <ul>
+            <li><strong>BS Islamic Studies</strong> — University of Sargodha, 2025</li>
+            <li><strong>Intermediate</strong> — Faisalabad Board, 2021</li>
+            <li><strong>Matric (Science)</strong> — Faisalabad Board, 2019</li>
+            <li><strong>Computer Operator Diploma</strong> — 2026</li>
+        </ul>
+    </section>
+
+    <section id="services">
+        <h2>My Online Services</h2>
+
+        <p>
+            I offer the following computer and online assistance services.
+            Contact me to discuss your requirements, availability and charges.
+        </p>
+
+        <br>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>📝 MS Word Typing</h3>
+                <p>Applications, letters, documents and document formatting.</p>
+            </div>
+
+            <div class="card">
+                <h3>📊 Excel Data Entry</h3>
+                <p>Data entry, tables, lists and basic Excel worksheets.</p>
+            </div>
+
+            <div class="card">
+                <h3>💼 Online Job Applications</h3>
+                <p>Assistance with online forms and job application submissions.</p>
+            </div>
+
+            <div class="card">
+                <h3>📄 CV & Resume Preparation</h3>
+                <p>CV formatting and preparation of professional resumes.</p>
+            </div>
+
+            <div class="card">
+                <h3>⌨️ Urdu & English Typing</h3>
+                <p>Typing assistance for Urdu and English documents.</p>
+            </div>
+
+            <div class="card">
+                <h3>🌐 Basic Website Development</h3>
+                <p>Simple personal websites using HTML and CSS.</p>
+            </div>
+
+        </div>
+
+        <a class="button whatsapp"
+           href="https://wa.me/923424697140"
+           target="_blank"
+           rel="noopener noreferrer">
+           Ask About Services on WhatsApp
+        </a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contact-links">
+            <p><strong>Location:</strong> Chiniot, Punjab, Pakistan</p>
+
+            <p>
+                <strong>Phone:</strong>
+                <a href="tel:03296028669">03296028669</a>
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:shahidhrrl@gmail.com">shahidhrrl@gmail.com</a>
+            </p>
+
+            <a class="button whatsapp"
+               href="https://wa.me/923424697140"
+               target="_blank"
+               rel="noopener noreferrer">
+               Contact Me on WhatsApp
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Shahid Ali. All Rights Reserved.</p>
+    <p>Computer Operator | Data Entry | Online Services</p>
+</footer>
+
+</body>
+    </html>
