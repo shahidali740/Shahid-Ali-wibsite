@@ -1,98 +1,245 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="en">
 <head>
-<title>MyFirst Website</title>
-</head>
-<body>
-<h1 id="home">My First Website</h1>
-<nav style="background-color:blue; padding:15px; text-align:center;">
-<a href="#home" style="color:white; margin:15px;">Home</a>
-<a href="#about" style="color:white; margin:15px;">About</a>
-<a href="#skills" style="color:white; margin:15px;">Skills</a>
-<a href="#education" style="color:white; margin:15px;">Education</a>
-<a href="#contect" style="color:white; margin:15px;">Contact</a>
- <p>Phone:
-    <a href="tel:03296028669" style="color: white;">03296028669</a>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shahid Ali | Computer Operator & Web Developer</title><style>
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f6fa;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    background: #123c69;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 32px;
+}
+
+header p {
+    margin: 5px;
+}
+
+nav {
+    background: #0756a3;
+    padding: 12px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: white;
+    color: #0756a3;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+    padding: 15px;
+}
+
+section {
+    background: white;
+    margin: 18px 0;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #00000012;
+}
+
+h2 {
+    color: #0756a3;
+    border-bottom: 2px solid #0756a3;
+    padding-bottom: 8px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #0756a3;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin: 7px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #0756a3;
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    background: #0756a3;
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+.whatsapp {
+    background: #128c4a;
+}
+
+footer {
+    background: #123c69;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        margin: 2px;
+        padding: 7px;
+        font-size: 14px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+}
+</style></head><body><header id="home">
+    <h1>Shahid Ali</h1>
+    <p>Computer Operator | Office Assistant | Web Development Learner</p>
+    <p>Chiniot, Punjab, Pakistan</p>
+</header><nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav><div class="container"><section class="profile">
+    <img src="myphoto.jpg" alt="Shahid Ali">
+    <h2>Welcome to My Website</h2>
+    <p>Welcome! I am Shahid Ali. Explore my education, skills and services.</p>
+</section><section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is Shahid Ali. I am from Chiniot, Punjab, Pakistan.
+    I have completed my BS in Islamic Studies and a Computer Operator course.
+    I am interested in computer skills, office management and web development.
+    I am hardworking, responsible and always willing to learn new skills.</p>
+</section><section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+        <li>MS Word</li>
+        <li>MS Excel</li>
+        <li>English Typing — 35 WPM</li>
+        <li>HTML and CSS</li>
+        <li>Basic Web Development</li>
+        <li>Data Entry</li>
+        <li>Internet and Email</li>
+        <li>Basic Office Management</li>
+    </ul>
+</section><section id="education">
+    <h2>My Education</h2>
+    <table>
+        <tr>
+            <th>Degree</th>
+            <th>Institute</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>BS Islamic Studies</td>
+            <td>University of Sargodha</td>
+            <td>2025</td>
+        </tr>
+        <tr>
+            <td>Computer Operator Diploma</td>
+            <td>Unique Academy</td>
+            <td>2026</td>
+        </tr>
+        <tr>
+            <td>Intermediate</td>
+            <td>Islamia College Chiniot</td>
+            <td>2021</td>
+        </tr>
+        <tr>
+            <td>Matric (Science)</td>
+            <td>Government High School No. 138</td>
+            <td>2019</td>
+        </tr>
+    </table>
+</section><section id="services">
+    <h2>My Services</h2>
+    <ul>
+        <li>CV and Resume Preparation</li>
+        <li>Online Job Application Assistance</li>
+        <li>MS Word Document Typing</li>
+        <li>Excel Data Entry</li>
+        <li>Basic Website Creation</li>
+        <li>Document Formatting</li>
+    </ul>
+    <p>Contact me to discuss your work requirements.</p>
+</section><section id="contact">
+    <h2>Contact Me</h2><p>Phone:
+    <a href="tel:03296028669">03296028669</a>
 </p>
 
 <p>Email:
-    <a href="mailto:shahidhrrl@gmail.com" style="color: white;">shahidhrrl@gmail.com</a>
+    <a href="mailto:shahidhrrl@gmail.com">shahidhrrl@gmail.com</a>
 </p>
 
-<p>WhatsApp:
-    <a href="https://wa.me/923424697140" style="color: white;">Chat with me on WhatsApp</a>
-</p>
-</nav>
-<style>
-a {
-text-decoration: none; padding: 8px; border-radius:5px;
-}
-a:hover {
-background-color:white; color:blue !important;
-}
-</style> 
-<h2 id="about">About Me</h2>
-<h2 id="skills">My Skills</h2>
-<h2 id="education">My education</h2>
-<h2 id="contect">contact</h2>
-<p>Hello! My name is Shahid Ali. I am from Chiniot, Punjab, Pakistan. I have completed my BS in Islamic Studies and a Computer Operator course. I am interested in computer skills, web development, office management, and learning new technologies. I am hardworking, responsible, and always willing to learn new skills.</p>
-<a href="mailto:shahidhrrl@gmail.com"><button>Contect Me</button><a/>
-<h2>My skills</h2>
-<ol>
-<li>Ms word</li>
-<li>HTML</li>
-<li>CSS</li>
-<li>Web Development</li>
-</ol>
-<h2>My Hobbies</h2>
-<ol>
-<li>Reading</li>
-<li>Learning</li>
-<li>Computer work</li>
-<lo>
-<h2>My Education</h2>
+<a class="button whatsapp"
+   href="https://wa.me/923424697140"
+   target="_blank" rel="noopener">
+   Chat with me on WhatsApp
+</a>
 
-<table border="1" cellpadding="10" cellspacing="0" style="text-align:center; width:70%; table-layout:fixed;">
-<tr>
-<th style="background-color:blue; color:white;">Degree</th>
-<th style="background-color:blue; color:white;">Institute</th>
-<th style="background-color:blue; color:white;">Year</th>
-<tr>
-
-<tr>
-<td>Bs Islamic Studies</td>
-<td>Sargodha University</td>
-<td>2025</td>
-</tr>
-
-<tr>
-<td>Computer Diploma</td>
-<td>Uniqe Academy</td>
-<td>2026</td>
-</tr>
-
-<tr>
-<td>FA</td>
-<td>Islamia College Chiniot</td>
-<td>2021</td>
-</tr>
-
-<tr>
-<td>Matric</td>
-<td>Govt High School 138</td>
-<td>2019</td>
-</tr>
-</table>
-
-<a href="https://www.google.com">google open</a>
-<div style="text-align: center;">
-<img src="myphoto.jpg"width="300" height="300" 
-style=" border:10px
-solid black;border-radius:50%; box-shadow:0 0 15px gray; transition:0.5s;"
-onmouseover="this.style.transform='scale(1.1)'"
-onmouseout="this.style.transform='scale(1)'"
- alt="My photo">
-<h2 style="text-align:center;color:blue; font-size:32px;font-family:Arial;">Shahid Ali</h2>
-<p>Welcome to my first website.</p>
-</body>
-</html>
+</section></div><footer>
+    <p>© 2026 Shahid Ali | Personal Portfolio Website</p>
+</footer></body>
+ </html>
